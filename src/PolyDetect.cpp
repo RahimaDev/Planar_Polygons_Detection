@@ -54,8 +54,8 @@ int main (int argc, char** argv)
                 int32_t green = rand () >> 8 & 0xFF;
                 int32_t blue = rand ()& 0xFF;
                 cl=Grid_polygon(*it_ring, result1.Pl[i]);
-                for(int k=0; k<cl.points.size(); k++)
-                {if(cl.points.size()>15)
+                if(cl.points.size()>15)
+                {for(int k=0; k<cl.points.size(); k++)
                    {pcl::PointXYZRGB pt;
                     pt.x=cl.points[k].x;
                     pt.y=cl.points[k].y;
