@@ -2,7 +2,9 @@
 
 PolyDetect: an efficient algorithm to extract planar polygons from LiDAR data based on MSAC (M-estimator SAmple and Consensus).
 
-# Required dependencies: PCL, Eigen, CGAL.
+# Required dependencies:
+
+PCL, Eigen, CGAL.
 
 Test:
 
@@ -18,7 +20,7 @@ where:
 
 # How it works?
 
-#First Part: Plane estimation
+# First Part: Plane estimation
 
 1. It estimates the parameters of the plane using MAC.
 2. It selects the inliers of the estimated plane.
@@ -26,21 +28,28 @@ where:
 4. It removes these inliers  from an input point cloud.
 5. If the size of the obtained planar region > the min_size, it repeats steps 1 to 4, otherwise it stops.
 
-Second part: Polygons extraction:
+# Second part: Polygons extraction:
 For each estimated plane:
 1. It  projects the inliers on the plane.
 2. It extracts the set of polyones with holes using alpha shape.
 
 
-Third part: Visualization
+# Third part: Visualization
 
 1. It generate a grid points. 
 2. It projects the points of the generated grid onto the supporting plane plane of the polygon.
 3. It keeps 3D points that project inside the polygon.
 
 
-#If our project is helpful for your research, please consider citing:
+# If our project is helpful for your research, please consider citing:
+
 Djahel, Rahima, Bruno Vallet, and Pascal Monasse. "Towards Efficient Indoor/Outdoor Registration Using Planar Polygons." ISPRS annals of the photogrammetry, remote sensing and spatial information sciences 2 (2021): 51-58.
+
+# To contact us:
+
+rahima.djahel@enpc.fr
+rdjahel@gmail.com
+
 
 
 
