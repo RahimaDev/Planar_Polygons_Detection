@@ -6,13 +6,13 @@ PolyDetect: an efficient algorithm to extract planar polygons from LiDAR data ba
 
 PCL, Eigen, CGAL.
 
-Test:
+# Test:
 
 ./PolyDetect ../data/musee_RDC003.ply 0.03 1000 2000 0.07
  
 where:
 
-0.043: inliers threshold.
+0.03: inliers threshold.
 1000: maximum number of the iteration. 
 2000: minimum size of a planar region. 
 0.07: the parameter alpha (alpha shape).
