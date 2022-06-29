@@ -52,6 +52,7 @@ Djahel, Rahima, Bruno Vallet, and Pascal Monasse. "Towards Efficient Indoor/Outd
 # To contact us:
 
 rahima.djahel@enpc.fr
+
 rdjahel@gmail.com
 
 
