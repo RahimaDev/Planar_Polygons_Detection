@@ -26,7 +26,7 @@ where:
 
 # First Part: Plane estimation
 
-1. It estimates the plane parameters  using MAC.
+1. It estimates the plane parameters  using MSAC.
 2. It selects the inliers of the estimated plane.
 3. It uses the least squares fitting to estimate the average  plane of these inliers.
 4. It removes these inliers  from an input point cloud.
@@ -35,7 +35,7 @@ where:
 # Second part: Polygons extraction:
 For each estimated plane:
 1. It  projects the inliers on the plane.
-2. It extracts the set of polyones with holes using alpha shape.
+2. It extracts the set of polygons with holes using alpha shape.
 
 
 # Third part: Visualization
