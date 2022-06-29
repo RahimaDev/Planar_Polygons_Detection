@@ -13,9 +13,13 @@ PCL, Eigen, CGAL.
 where:
 
 0.03: inliers threshold.
+
 1000: maximum number of the iteration. 
+
 2000: minimum size of a planar region. 
+
 0.07: the parameter alpha (alpha shape).
+
 (the values of these parameters can be modified and adapted by the users ).
 
 # How it works?
