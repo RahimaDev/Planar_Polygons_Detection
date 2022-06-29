@@ -24,7 +24,7 @@ where:
 
 # How it works?
 
-# First Part: Plane estimation
+# First Part: Planes detection
 
 1. It estimates the plane parameters  using MSAC.
 2. It selects the inliers of the estimated plane.
