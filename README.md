@@ -8,7 +8,7 @@ PCL, Eigen, CGAL.
 
 # Test:
 
-./PolyDetect ../data/musee_RDC003.ply 0.03 1000 2000 0.07
+./PolyDetect ../data/musee_RDC003.ply 0.03 1000 2000 0.06
  
 where:
 
@@ -18,7 +18,7 @@ where:
 
 2000: minimum size of a planar region. 
 
-0.07: the parameter alpha (alpha shape).
+0.06: the parameter alpha (alpha shape).
 
 (the values of these parameters can be modified and adapted by the users ).
 
