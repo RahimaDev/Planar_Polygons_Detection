@@ -26,7 +26,7 @@ where:
 2. It selects the inliers of the estimated plane.
 3. It uses the least squares fitting to estimate the average  plane of these inliers.
 4. It removes these inliers  from an input point cloud.
-5. If the size of the obtained planar region > the min_size, it repeats steps 1 to 4, otherwise it stops.
+5. If the size of the obtained planar region > the minimum size of a planar region, it repeats steps 1 to 4, otherwise it stops.
 
 # Second part: Polygons extraction:
 For each estimated plane:
