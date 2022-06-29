@@ -67,8 +67,9 @@ int main (int argc, char** argv)
                     pt.rgb=rgb;
                     CL.points.push_back(pt);
                    }
-                }
+                
                 pcl::io::savePLYFile("grid_cloud"+to_string(i)+"_"+to_string(h)+".ply",CL);
+                }
             }}}
     return 0;
 }
