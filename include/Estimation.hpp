@@ -68,16 +68,6 @@ double Angle(Eigen::Vector3d V1,Eigen::Vector3d V2 )
     double  b=V1[1];
     double  c=V1[2];
 
-    struct Plane
-    {
-        pcl::ModelCoefficients::Ptr Cof;
-        Eigen::Vector3d normal;
-        float d;
-        int size;
-        pcl::PointCloud<pcl::PointXYZ>::Ptr Cloud;
-        std::vector<poly_holes>poly;
-        bool processed=false;
-    };
     double h=V2[0];
     double i=V2[1];
     double j=V2[2];
